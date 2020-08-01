@@ -1,0 +1,6 @@
+{
+	"pack": {
+		"pack_format": 5,
+		"description": "Prevent creepers from blowing up terrain, but keep them dangerous"
+	}
+}
