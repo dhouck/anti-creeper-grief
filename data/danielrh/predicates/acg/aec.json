@@ -4,7 +4,7 @@
 	"predicate": {
 		"type": "minecraft:area_effect_cloud",
 		"nbt": "{Effects: [
-			{Id: 26b, Amplifier: 17b, ShowParticles: false, Ambient: true, ShowIcon: true},
+			{Id: 26b, Amplifier: 17b, ShowParticles: false, ShowIcon: true},
 			{Id: 27b, Amplifier: 17b, ShowParticles: false, Ambient: true, ShowIcon: true}
 			]}"
 	}
