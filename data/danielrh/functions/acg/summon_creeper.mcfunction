@@ -1,4 +1,4 @@
-# Create creeper
+# Create creeper tagged as Under Construction
 summon minecraft:creeper ~ ~ ~ {ignited: true, Fuse: 0b, Tags: ["acg_bomb", "acg_uc"]}
 
 # A powered creeper is represented by effect 26 (luck) being ambient
@@ -6,4 +6,6 @@ data modify entity @e[type=minecraft:creeper,tag=acg_uc,limit=1,sort=nearest] po
 
 # Cleanup
 tag @e[type=minecraft:creeper,tag=acg_uc,limit=1,sort=nearest] remove acg_ug
-kill @s
+data remove entity @s Effects[{Id:26b}]
+data remove entity @s Effects[{Id:27b}]
+execute unless data entity @s Effects run kill @s
