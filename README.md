@@ -1,3 +1,5 @@
+**Current status**: This is a very low priority for me; Iʼll probably get back to this at some point if there isnʼt a better implementation elsewhere by then, but it probably wonʼt be in the next several months at least.  Iʼm not aware of any changes that would have broken it, so it might still work in single-player, but Iʼve heard people say it fails on servers and I have no clue why thereʼd be a difference there.
+
 # Dangerous Anti-Creeper-Grief datapack
 
 This is a datapack which prevents creepers from blowing up your builds, while still keeping them dangerous.  They will damage players and other mobs, just as they would before, but they will not destroy blocks.
